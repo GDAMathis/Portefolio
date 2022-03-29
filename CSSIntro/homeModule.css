@@ -1,0 +1,215 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.home-bannire {
+  width: 100%;
+  object-fit: cover;
+}
+.home-intro {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 18%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 3%;
+}
+.home-photo {
+  height: 100%;
+  object-fit: cover;
+  margin-left: 18%;
+  margin-right: 50px;
+}
+.home-texte-container {
+  flex: 0 0 auto;
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  font-family: "Noto Sans", Calibri, sans-serif;
+}
+.home-portfolio {
+  color: #1f7314;
+  width: 35%;
+  border-color: #1f7314;
+  border-top-width: 0px;
+  border-bottom-width: 4px;
+  border-right-width: 0px;
+  border-left-width: 0px;
+  font-family: "Noto Sans", Calibri, sans-serif;
+  font-size: 40px;
+}
+.home-nom {
+  font-size: 40px;
+  margin-bottom: 25px;
+  font-family: "Noto Sans", Calibri, sans-serif;
+}
+.home-text01 {
+  color: #2765d2;
+}
+.home-bienvenue {
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-family: "Noto Sans", Calibri, sans-serif;
+}
+.home-text02 {
+  color: #1f7314;
+  font-style: normal;
+  font-weight: 700;
+  font-family: "Noto Sans", Calibri, sans-serif;
+}
+.home-bienvenue1 {
+  font-size: 18px;
+  font-family: "Noto Sans", Calibri, sans-serif;
+}
+.home-lien-page {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.home-biome-colonne {
+  flex: 0 0 auto;
+  width: 25%;
+  height: 100%;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 2.5%;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.home-bouton-biome {
+  color: transparent;
+  display: flex;
+  padding: 0px;
+  border-width: 0px;
+  border-radius: 0px;
+  flex-direction: row;
+  background-color: transparent;
+}
+.home-image-biome {
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+.home-text-biome {
+  width: 100%;
+  text-align: center;
+  font-family: "Noto Sans", Calibri, sans-serif;
+  font-size: 18px;
+}
+.home-text07 {
+  text-align: center;
+  font-family: "Noto Sans", Calibri, sans-serif;
+  font-size: 18px;
+}
+.home-text08 {
+  text-align: center;
+  font-family: "Noto Sans", Calibri, sans-serif;
+  font-size: 18px;
+}
+.home-text09 {
+  color: #1f7314;
+  text-align: center;
+  font-family: "Noto Sans", Calibri, sans-serif;
+  font-size: 18px;
+}
+.home-philologus {
+  flex: 0 0 auto;
+  width: 25%;
+  height: 100%;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.home-bouton-philologus {
+  color: transparent;
+  display: flex;
+  padding: 0px;
+  border-width: 0px;
+  border-radius: 0px;
+  flex-direction: row;
+  background-color: transparent;
+}
+.home-image-philologus {
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+.home-text-philologus {
+  width: 100%;
+  text-align: center;
+  font-family: "Noto Sans", Calibri, sans-serif;
+  font-size: 18px;
+}
+.home-text10 {
+  text-align: center;
+  font-family: "Noto Sans", Calibri, sans-serif;
+  font-size: 18px;
+}
+.home-text11 {
+  text-align: center;
+  font-family: "Noto Sans", Calibri, sans-serif;
+  font-size: 18px;
+}
+.home-text12 {
+  color: #1f7314;
+  text-align: center;
+  font-family: "Noto Sans", Calibri, sans-serif;
+  font-size: 18px;
+}
+.home-autre {
+  flex: 0 0 auto;
+  width: 25%;
+  height: 100%;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  margin-left: 2.5%;
+  margin-right: 5%;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.home-image-autre {
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+.home-text-autre {
+  width: 100%;
+  text-align: center;
+  font-family: "Noto Sans", Calibri, sans-serif;
+  font-size: 18px;
+}
+.home-text13 {
+  text-align: center;
+  font-family: "Noto Sans", Calibri, sans-serif;
+  font-size: 18px;
+}
+.home-text16 {
+  color: #1f7314;
+  text-align: center;
+  font-family: "Noto Sans", Calibri, sans-serif;
+  font-size: 18px;
+}
+.home-marge {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: flex-start;
+}
