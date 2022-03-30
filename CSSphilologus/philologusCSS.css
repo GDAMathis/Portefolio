@@ -5,182 +5,170 @@
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
-}
-.philologus-Marge {
-  width: 100%;
-  height: 16px;
-  display: flex;
-  align-self: center;
-  align-items: flex-start;
-  flex-direction: column;
   justify-content: flex-start;
-}
-.philologus-container01 {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-self: center;
-  align-items: flex-start;
-  background-color: #1F7314;
-}
-.philologus-Sparation {
-  width: 100%;
-  height: 86px;
-  display: flex;
-  align-self: flex-start;
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-.philologus-container02 {
-  width: 100%;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.philologus-container03 {
-  width: 100%;
-  height: 403px;
-  display: flex;
-  align-items: center;
-  padding-bottom: 64px;
-  justify-content: center;
 }
 .philologus-image {
-  height: 100%;
-  align-self: center;
+  width: 100%;
   object-fit: cover;
 }
-.philologus-container04 {
+.philologus-corps {
+  flex: 0 0 auto;
   width: 100%;
   display: flex;
   align-items: flex-start;
 }
-.philologus-container05 {
-  width: 50%;
+.philologus-colonne-gauche {
+  flex: 0 0 auto;
+  width: 38%;
   display: flex;
-  align-self: center;
-  align-items: flex-end;
-  padding-left: 250px;
-  padding-right: 0px;
+  align-items: flex-start;
+  margin-left: 128px;
   flex-direction: column;
-  justify-content: center;
 }
 .philologus-image1 {
   width: 100%;
   object-fit: cover;
 }
-.philologus-container06 {
-  width: 50%;
+.philologus-colonne-droite {
+  flex: 0 0 auto;
+  width: 45%;
   display: flex;
-  align-self: center;
   align-items: flex-start;
-  padding-left: 32px;
-  padding-right: 350px;
+  padding-top: 32px;
+  padding-left: 52px;
   flex-direction: column;
+}
+.philologus-texte-biome1 {
+  color: #1f7314;
+  margin-bottom: 32px;
+  font-family: "Noto Sans", Calibri, sans-serif;
+  
 }
 .philologus-text {
-  font-size: 22px;
+  font-style: normal;
+  font-weight: 900;
   font-family: "Noto Sans", Calibri, sans-serif;
-  margin-bottom: 48px;
 }
 .philologus-text01 {
-  color: #1F7314;
+  font-weight: 900;
   font-family: "Noto Sans", Calibri, sans-serif;
+  font-size: 24px;
 }
-.philologus-link {
-  color: #2765D2;
+.philologus-text02 {
+  color: #000000;
   font-family: "Noto Sans", Calibri, sans-serif;
-  font-size: 22px;
-  align-self: flex-start;
-  padding-left: 24px;
-  text-decoration: none;
+  font-size: 18px;
 }
-.philologus-text06 {
-  font-size: 22px;
+.philologus-text03 {
+  color: #000000;
   font-family: "Noto Sans", Calibri, sans-serif;
-  margin-top: 48px;
-  margin-bottom: 0px;
+  font-size: 18px;
+}
+.philologus-text05 {
+  color: #000000;
+  font-family: "Noto Sans", Calibri, sans-serif;
+  font-size: 18px;
 }
 .philologus-text07 {
-  color: #1F7314;
+  color: #000000;
   font-family: "Noto Sans", Calibri, sans-serif;
+  font-size: 18px;
 }
-.philologus-container07 {
-  width: 100%;
-  height: 109px;
-  display: flex;
-  align-items: flex-start;
-}
-.philologus-container08 {
-  width: 100%;
-  display: flex;
-  align-items: flex-start;
-}
-.philologus-container09 {
-  width: 50%;
-  height: 100%;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  margin-left: 300px;
-  padding-top: 128px;
-}
-.philologus-text16 {
-  color: #1F7314;
+.philologus-text09 {
+  font-style: normal;
+  font-weight: 600;
   font-family: "Noto Sans", Calibri, sans-serif;
-  font-size: 22px;
-  align-self: flex-end;
-  text-align: right;
-  padding-left: 96px;
-  padding-right: 32px;
+  font-size: 18px;
+  color: #1f7314;
+}
+.philologus-text10 {
+  color: #000000;
+  font-family: "Noto Sans", Calibri, sans-serif;
+  font-size: 18px;
+}
+.philologus-text12 {
+  color: #000000;
+  font-style: normal;
+  font-family: "Noto Sans", Calibri, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+.philologus-link {
+  color: #2765d2;
+  font-family: "Noto Sans", Calibri, sans-serif;
+  font-size: 18px;
+}
+.philologus-texte-biome2 {
+  margin-top: 32px;
+  font-family: "Noto Sans", Calibri, sans-serif;
+  font-size: 18px;
+}
+.philologus-text14 {
+  color: #1f7314;
+  font-family: "Noto Sans", Calibri, sans-serif;
+  font-size: 18px;
+}
+.philologus-text18 {
+  color: #1f7314;
+  font-style: normal;
+  font-weight: 600;
+  font-family: "Noto Sans", Calibri, sans-serif;
+  font-size: 18px;
 }
 .philologus-text21 {
-  color: #000000;
+  color: #1f7314;
+  font-style: normal;
+  font-weight: 600;
   font-family: "Noto Sans", Calibri, sans-serif;
+  font-size: 18px;
 }
-.philologus-text23 {
-  color: #000000;
+.philologus-text29 {
+  color: #1f7314;
+  font-style: normal;
+  font-weight: 600;
   font-family: "Noto Sans", Calibri, sans-serif;
+  font-size: 18px;
 }
-.philologus-text25 {
-  color: #000000;
+.philologus-text33 {
+  color: #1f7314;
+  font-style: normal;
+  font-weight: 600;
   font-family: "Noto Sans", Calibri, sans-serif;
+  font-size: 18px;
 }
-.philologus-container10 {
-  width: 50%;
-  height: 100%;
+.philologus-text37 {
+  color: #1f7314;
+  font-style: normal;
+  font-weight: 600;
+  font-family: "Noto Sans", Calibri, sans-serif;
+  font-size: 18px;
+}
+.philologus-text39 {
+  color: #1f7314;
+  font-family: "Noto Sans", Calibri, sans-serif;
+  font-size: 18px;
+}
+.philologus-retour {
+  width: 100%;
   display: flex;
+  margin-top: 48px;
   align-items: flex-start;
-  padding-right: 96px;
-  margin-right: 250px;
-  margin-bottom: 150px;
-  flex-direction: column;
+  padding-left: 64px;
+}
+.philologus-button {
+  color: transparent;
+  display: flex;
+  padding: 0px;
+  border-width: 0px;
+  border-radius: 0px;
+  flex-direction: row;
+  background-color: transparent;
+}
+.philologus-link2 {
+  display: contents;
 }
 .philologus-image2 {
-  width: 100%;
+  height: 100%;
   object-fit: cover;
-}
-.philologus-Sparation1 {
-  width: 100%;
-  height: 162px;
-  display: flex;
-  align-self: center;
-  align-items: center;
-  padding-top: 32px;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-.philologus-navlink {
-  font-size: 22px;
-  font-family: "Noto Sans", Calibri, sans-serif;
   text-decoration: none;
-  border-style: solid;
-  border-color: black;
-  border-width: 3px;
-  padding: 5px;
-}
-.testSeparation{
-  width: 100%;
-  height: 100px;
 }
